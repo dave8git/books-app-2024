@@ -60,7 +60,7 @@ figure {
       }
     }
 
-    &.hidden {
+    &.disabled {
       opacity: 0.5;
     }
   }
@@ -77,4 +77,8 @@ figure {
     }
   }
 
+}
+
+.hidden {
+  display: none;
 }
